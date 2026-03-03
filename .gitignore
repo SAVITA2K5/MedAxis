@@ -31,6 +31,10 @@ env/
 # Streamlit
 .streamlit/secrets.toml
 
+# Environment variables (DB credentials etc.)
+.env
+*.env
+
 # IDE
 .vscode/
 .idea/
