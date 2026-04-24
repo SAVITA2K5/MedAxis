@@ -1,3 +1,4 @@
+
 CREATE DATABASE medaxis_db;
 -- =============================================
 -- MedAxis: Table Creation
@@ -64,6 +65,7 @@ VALUES
     ('P-1024', 'Rajesh Kumar', NOW() - INTERVAL '2 days', 5, 6.0, 'Low',  98.4, 'Moderate', 'Monitor', 'WARNING: Elevating symptoms. Rest recommended.'),
     ('P-1024', 'Rajesh Kumar', NOW() - INTERVAL '1 day',  3, 7.5, 'Medium', 98.6, 'Low', 'Normal', 'Condition looks stable. Maintain current medication.'),
     ('P-1024', 'Rajesh Kumar', NOW() - INTERVAL '5 hours', 8, 4.0, 'Low', 99.1, 'High', 'Urgent', 'CRITICAL: Combined high pain & lack of sleep. Contact Doctor immediately.');
+use medaxis_db;
 SELECT * FROM hospitals;
 SELECT * FROM doctors;
 SELECT * FROM patients;

@@ -1,50 +1,44 @@
-# Python
+# ── Python ────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.Python
-env/
-venv/
-ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
 
-# Virtual Environment
+# ── Virtual Environments ──────────────────────────
 venv/
-ENV/
 env/
+ENV/
+.venv/
 
-# Streamlit
+# ── Streamlit secrets (NEVER commit this!) ────────
 .streamlit/secrets.toml
 
-# Environment variables (DB credentials etc.)
+# ── Environment & config files ────────────────────
 .env
 *.env
 
-# IDE
+# ── Database dumps & backups ─────────────────────
+*.sql.bak
+*_backup.sql
+*_migration.sql
+
+# ── Build artifacts ───────────────────────────────
+.dist/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ── IDE ───────────────────────────────────────────
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
+# ── OS ────────────────────────────────────────────
 .DS_Store
 Thumbs.db
 
-# Logs
+# ── Logs ──────────────────────────────────────────
 *.log
